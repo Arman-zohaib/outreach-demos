@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Don Jose Mexican Food — Concept Preview</title>
+<style>
+:root { --brand: #8c1c13; --accent: #e09f3e; --dark: #1e293b; --light: #f8fafc; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--dark); background: var(--light); line-height: 1.6; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+header { background: var(--brand); color: #fff; padding: 14px 0; position: sticky; top: 0; z-index: 10; }
+header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+header h1 { font-size: 1.25rem; }
+.btn { display: inline-block; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 700; margin: 6px 8px 6px 0; }
+.btn-call { background: var(--accent); color: #fff; }
+.btn-ghost { background: #fff; color: var(--brand); border: 2px solid var(--brand); }
+.hero { background: linear-gradient(135deg, var(--brand), var(--accent)); color: #fff; padding: 64px 0; text-align: center; }
+.hero h2 { font-size: 2rem; margin-bottom: 12px; }
+.hero p { font-size: 1.1rem; margin-bottom: 24px; opacity: .95; }
+section { padding: 48px 0; }
+section.alt { background: #fff; }
+h3 { color: var(--brand); font-size: 1.5rem; margin-bottom: 16px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; }
+.card h4 { color: var(--brand); margin-bottom: 6px; font-size: 1.05rem; }
+.trust { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.trust span { background: #eef2ff; color: var(--brand); font-weight: 600; padding: 8px 16px; border-radius: 999px; font-size: .9rem; }
+.info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+.contact-block a { color: var(--brand); font-weight: 700; text-decoration: none; }
+.contact-block a:hover { text-decoration: underline; }
+footer { background: var(--dark); color: #cbd5e1; padding: 24px 0; text-align: center; font-size: .85rem; }
+@media (max-width: 600px) { .hero h2 { font-size: 1.5rem; } header h1 { font-size: 1rem; } .btn { display: block; text-align: center; margin: 8px 0; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Don Jose Mexican Food</h1>
+    <a class="btn btn-call" href="tel:+16029557870">Call (602) 955-7870</a>
+  </div>
+</header>
+<div class="hero">
+  <div class="wrap">
+    <h2>Authentic Sonoran Mexican food in Phoenix since 1966.</h2>
+    <p>Famous cheese crisps and sizzling skillet fajitas — family owned for over 40 years.</p>
+    <a class="btn btn-call" href="tel:+16029557870">Call Now</a>
+    <a class="btn btn-ghost" href="mailto:donjosemexicanfood@gmail.com?subject=Appointment%20request">Book</a>
+    <a class="btn btn-ghost" href="https://maps.google.com/?q=3734+E+Thomas+Road+Phoenix+AZ+85018">Directions</a>
+  </div>
+</div>
+<section>
+  <div class="wrap">
+    <h3>About Don Jose Mexican Food</h3>
+    <p>Don Jose Mexican Food has been a Phoenix tradition since 1966 — family owned for over 40 years. Famous for their cheese crisps and sizzling skillet fajitas, they serve hearty Sonoran-style dishes in Arcadia, plus catering and food wagons for any event.</p>
+    <div class="trust"><span>Family owned 40+ years</span><span>Since 1966</span><span>4.5/5 — 500 reviews</span></div>
+  </div>
+</section>
+<section class="alt">
+  <div class="wrap">
+    <h3>Our Services</h3>
+    <div class="cards">
+      <div class="card"><h4>Cheese Crisps</h4><p>The legendary Phoenix original.</p></div>
+      <div class="card"><h4>Skillet Fajitas</h4><p>Sizzling, served since 1966.</p></div>
+      <div class="card"><h4>Lunch Specials</h4><p>Mon–Fri 11 AM – 2 PM, dine-in.</p></div>
+      <div class="card"><h4>Catering &amp; Food Wagons</h4><p>Parties, weddings &amp; offices.</p></div>
+      <div class="card"><h4>Online Ordering</h4><p>Pickup or delivery via Toast.</p></div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap info-grid">
+    <div>
+      <h3>Hours &amp; Location</h3>
+      <p>Monday–Friday: 11:00 AM – 8:30 PM<br>Saturday–Sunday: 10:00 AM – 8:30 PM</p>
+      <p style="margin-top:12px">3734 E. Thomas Road, Phoenix, AZ 85018</p>
+    </div>
+    <div class="contact-block">
+      <h3>Contact Us</h3>
+      <p>Phone: <a href="tel:+16029557870">(602) 955-7870</a></p>
+      <p>Email: <a href="mailto:donjosemexicanfood@gmail.com">donjosemexicanfood@gmail.com</a></p>
+      <p style="margin-top:12px">Ready when you are — call or email and we'll take care of the rest.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <p>Concept preview &mdash; a demo redesign for illustration only. Not affiliated with Don Jose Mexican Food.</p>
+  </div>
+</footer>
+</body>
+</html>
